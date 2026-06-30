@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+}
+
+.container {
+  border: 5px rgb(244, 239, 239) solid;
+  border-radius: 50px;  /* was 20%, change to 20px */
+  width: 300px;
+  height: 350px;
+  margin: 20px 20px;
+  position: relative;
+  overflow: hidden;  /* add this — clips anything that sneaks outside */
+  background-color: white;
+
+}
+
+.super-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;  /* was 0, change this */
+  left: 0;
+  font-size: medium;
+  margin-left: 10px;
+  margin-bottom: 0;  /* remove margin-bottom since you're using bottom now */
+}
+
+.footer2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+}
+
+.address {
+  position: absolute;
+  bottom: 4px;  /* add a little gap from edge */
+  left: 0;
+  margin-bottom: 0;
+  font-size: small;
+  font-weight: lighter;
+  color: rgb(102, 92, 92);
+  margin-left: 10px;
+}
+.par{
+  margin-left: 25px;
+  border: 2px;
+}
+.post{
+  font-size: x-large;
+}
